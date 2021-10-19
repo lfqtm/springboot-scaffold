@@ -8,17 +8,24 @@
     <artifactId>springboot-scaffold</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.5.5</version>
+    </parent>
+
     <modules>
         <module>springboot-quickstart</module>
         <module>spring-ioc</module>
         <module>springboot-ioc</module>
+        <module>springboot-autoconfigure</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring.version>5.3.9</spring.version>
     </properties>
 
     <dependencies>
