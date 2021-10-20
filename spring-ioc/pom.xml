@@ -12,6 +12,7 @@
     <artifactId>spring-ioc</artifactId>
 
     <dependencies>
+
         <!--jsr @inject-->
         <dependency>
             <groupId>javax.inject</groupId>
