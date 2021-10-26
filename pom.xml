@@ -20,6 +20,8 @@
         <module>spring-ioc</module>
         <module>springboot-ioc</module>
         <module>springboot-autoconfigure</module>
+        <module>springboot-aop</module>
+        <module>springboot-jpa</module>
     </modules>
 
     <properties>
